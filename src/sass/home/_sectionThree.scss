@@ -1,0 +1,49 @@
+.sec3{
+    padding: 110px 0px;
+    background-color: #f4f8fb;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    .span{
+        font-size: 24px;
+        font-weight: 600;
+        color: #404040;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        color: #838383;
+        line-height: 2.14;
+        margin-top: 21px;
+        margin-bottom: 0px;
+    }
+    .button{
+        margin-top: 110px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .sec3{
+        .span{
+            font-size: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 997px) {
+    .sec3{
+        .h5{
+            padding-bottom: 30px !important;
+        }
+        .row{
+            margin-top: 0px !important;
+        }
+        .col-lg-4{
+            margin-top: 25px !important;
+        }
+    }
+}
+
+

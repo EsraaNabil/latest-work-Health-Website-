@@ -1,0 +1,144 @@
+.contact_header{
+    background-image: url(../../images/contact/Contact.jpg);
+    background-position: center;
+}
+.contact{
+    .row{
+        position: relative;
+    }
+    .h2{
+        font-size: 27px;
+    }
+    .form-body{
+        margin-top: 31px;
+        .contact_input{
+            display: block;
+            width: 100%;
+            height: 51px;
+            background: #e5ecf1;
+            border: none;
+            outline: none;
+            border-left: solid 3px transparent;
+            padding-left: 35px;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        .contact_input:hover{
+            border-left: solid 3px #32c69a;
+        }
+        .contact_imput:focus{
+            border-left: solid 3px #32c69a;
+        }
+        .contact_textarea{
+            width: 100%;
+            height: 192px;
+            padding-top: 17px;
+            margin-bottom: 31px;
+        }
+        button{
+            width: 35%;
+        }
+    }
+    .map{
+        height: 600px;
+        iframe{
+            width: 100%;
+            height: 600px;
+        }
+    }
+    .information{
+        position: absolute;
+        background: #FFFFFF;
+        padding-top: 33px;
+        padding-bottom: 60px;
+        border-bottom: solid 4px #32c69a;
+        box-shadow: 0px 71px 81px rgba(4, 4, 4, 0.09);
+        width: 89.6%;
+        bottom: -55%;
+        ul{
+            padding-left: 0px;
+            list-style: none;
+            li{
+                font-size: 15px;
+                font-weight: 500;
+                color: #828282;
+                margin-bottom: 16px;
+                span{
+                    color: #404040;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .contact{
+        .appointment{
+            h2{
+                font-size: 24px;
+                line-height: 1.2;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact_header{
+        margin-top: 80px;
+    }
+    .contact{
+        .information{
+            position: relative;
+            width: 100%;
+            padding-top: 120px;
+            margin-bottom: -50px;
+            .row{
+                h2{
+                    margin-bottom: 0px !important;
+                }
+                .col-lg-4{
+                    ul{
+                        margin-top: 10px !important;
+                    }
+                }
+                .Hours{
+                    margin-top: 20px;
+                }
+            }
+        }
+        .row{
+            .appoint_body{
+                padding: 40px 0px 0px 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .contact{
+        .information{
+            h2{
+                font-size: 24px;
+                line-height: 1.2;
+            }
+            .row{
+                .col-lg-4{
+                    ul{
+                        li{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+        .row{
+            .form-body{
+                form{
+                    button{
+                        width: 45%;
+                    }
+                }
+            }
+        }
+    }
+}

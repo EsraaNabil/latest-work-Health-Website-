@@ -1,0 +1,90 @@
+.sec5{
+    background-color: #f4f8fb;
+    padding-bottom: 110px;
+    .row{
+        .col-sm-7{
+            padding-top: 110px;
+            .tog{
+                width: 100%;
+                background-color: white;
+                border: none;
+                border-radius: 0px;
+                height: 50px;
+                position: relative;
+                text-align: left;
+                padding-left: 71px;
+                display: flex;
+                align-items: center;
+                overflow: hidden;
+                cursor: pointer;
+                color: #404040;
+                font-size: 17px;
+                font-weight: 600;
+            }
+            span{
+                padding: 13px 21px;
+                background-color: #32c69a;
+                color: white;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                i{
+                    font-size: 10px;
+                }
+            }
+            .collapseBody{
+                border: none;
+                border-radius: 0px;
+                background-color: #f4f8fb;
+                padding-left: 0px;
+                font-size: 15px;
+                font-weight: 500;
+                color: #838383;
+                line-height: 2.14;
+                padding: 10px 0px;
+            }
+            .colapseTop{
+                margin-top: -16px;
+            }
+        }
+    }
+    .col-sm-5{
+        padding-top: 110px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sec5{
+        .row{
+            .col-sm-7,.col-sm-5{
+                .h2{
+                    font-size: 27px;
+                }
+            }
+            .col-sm-9{
+                h4{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .sec5{
+        .h5{
+            padding-bottom: 40px;
+        }
+        .row{
+            .col-sm-3{
+                img{
+                    width: 50%;
+                }
+            }
+            .col-sm-9{
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

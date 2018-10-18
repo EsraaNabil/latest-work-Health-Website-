@@ -1,0 +1,70 @@
+.taps_services{
+    .nav-link{
+        width: 100%;
+        padding: 20px 29px;
+        background: #f8fafc !important;
+        border: none;
+        border-radius: 0px;
+        border-left: solid 6px #dfdfdf;;
+        cursor: pointer;
+        h3{
+            font-size: 22px;
+            font-weight: 700;
+            color: #404040;
+            line-height: 1.2;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            color: #b1b1b1;
+            margin-top: 7px;
+            margin-bottom: 0px;
+        }
+    } 
+    .nav-link.active{
+        background: #32c69a !important;
+        border-color: black ;
+        h3,p{
+            color: white;
+        }
+    }
+    .nav-link:hover{
+        background: #32c69a !important;
+        border-color: black ;
+        transition: all 200ms ease;
+        h3,p{
+            color: white;
+        }
+    }
+    .col-sm-5{
+        img{
+            max-width: 100%;
+        }
+    }
+    .col-md-7{
+        div{
+            .addr{
+                font-size: 22px;
+                font-weight: 600;
+                color: #404040;
+                padding-top: 18px;
+                margin-bottom: 3px;
+            }
+            .parag{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 15px;
+                line-height: 2.14;
+                font-weight: 400;
+                color: #838383;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 997px) {
+    .taps_services{
+        .nav{
+            display: inline;
+        }
+    }
+}

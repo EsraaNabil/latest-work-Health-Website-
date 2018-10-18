@@ -1,0 +1,26 @@
+.about_header{
+    background-image: url(../../images/about_us/bg.jpg);
+    background-size: cover;
+    height: 35vh;
+    h1{
+        height: 55px;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #32c69a;
+        padding-left: 17px;
+        padding-right: 19px;
+        width: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .about_header{
+        margin-top: 80px;
+    }
+}
+
+

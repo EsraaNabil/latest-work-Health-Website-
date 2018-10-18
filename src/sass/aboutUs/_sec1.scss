@@ -1,0 +1,100 @@
+.sec1About{
+    h5{
+        padding-bottom: 55px;
+    }
+    .blackColor{
+        font-size: 17px;
+        font-weight: 700;
+        color: #404040;
+    }
+    .greyColor{
+        font-size: 16px;
+        line-height: 1.9;
+        font-weight: 400;
+        color: #838383;
+        padding-top: 25px;
+    }
+    .greyColor1{
+        font-size: 16px;
+        line-height: 1.9;
+        font-weight: 400;
+        color: #838383;
+        padding-top: 0px;
+    }
+}
+.sec2About{
+    padding: 85px 0px;
+    background: #f5f6f8;
+   .row{
+        .col-md-3{
+            display: flex;
+            align-items: flex-start;
+            img{
+                width: 70px;
+                margin-right: 20px;
+            }
+            p{
+                font-size: 48px;
+                font-weight: 600;
+                color: #404040;
+                line-height: 0.75;
+                span{
+                    font-size: 48px;
+                    font-weight: 600;
+                    color: #404040;
+                    line-height: 0.75;
+                }
+            }
+            span{
+                font-size: 16px;
+                font-weight: 600;
+                color: #c1c1c1;
+                line-height: 1.2;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 997px) {
+    .sec1About{
+        img{
+            padding-top: 25px;
+        }
+    }
+    .sec2About{
+        .row{
+            .col-md-3{
+                padding-left: 0px;
+                margin-bottom: 10px;
+                img{
+                    width: 50px;
+                }
+                p{
+                    font-size: 40px;
+                    span{
+                        font-size: 40px;
+                    }
+                }
+            }
+            .labresult{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .sec1About{
+        .greyColor{
+            padding-left: 0px;
+            padding-top: 0px;
+            font-size: 15px;
+        }
+        .greyColor1{
+            margin-bottom: 0px;
+        }
+        img{
+            padding-top: 25px;
+        }
+    }
+}

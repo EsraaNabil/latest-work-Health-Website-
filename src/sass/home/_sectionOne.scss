@@ -1,0 +1,109 @@
+.sec1{
+    .col-lg-8{
+        height: 100%;;
+        .card{
+            border: 0px;
+            border-radius: 0px;
+            background-color: #f4f8fb;
+            .card-body{
+                padding: 50px 35px;
+            }
+            h5{
+                font-size: 24px;
+                font-weight: 600;
+                color: #404040;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 500;
+                color: #838383;
+                line-height: 1.95;
+                margin-top: 14px;
+            }
+        }
+    }
+    .col-lg-4{
+        height: 100%;
+    }
+
+}
+
+
+.sec2{
+    background-image: url(../../images/home/sec1/hero-bg-01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 72px 0px 54px 0px;
+    h2{
+        color: white;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        color: rgba(255,255,255,0.76);
+        line-height: 1.5;
+        margin-top: 14px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .sec1{
+        .col-lg-8{
+            .card{
+                h5{
+                    font-size: 19px;
+                }
+            }
+        }
+        .appointment{
+            h4{
+                font-size: 19px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 997px) {
+    .sec1{
+        .col-lg-8{
+            .card{
+                h5{
+                    font-size: 25px;
+                }
+            }
+        }
+        .appointment{
+            margin-top: 30px;
+            h4{
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .sec1{
+        .col-lg-8{
+            .card{
+                h5{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sec2{
+        h2{
+            font-size: 22px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}

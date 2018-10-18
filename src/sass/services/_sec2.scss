@@ -1,0 +1,50 @@
+.sec2_services{
+    .col-lg-4{
+        padding: 80px 70px;
+    }
+    h4{
+        font-size: 32px;
+        font-weight: 600;
+        color: #FFFFFF;
+        line-height: 1.2;
+    }
+    h6{
+        font-size: 12px;
+        font-weight: 600;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        line-height: 0.75;
+        margin-top: 16px;
+        padding-left: 1px;
+        cursor: pointer;
+    }
+    p{
+        margin-top: 60px;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgba(255,255,255,0.66);
+        line-height: 2.14;
+        padding-left: 3px;
+        margin-bottom: 60px;
+    }
+    .button{
+        div{
+            background-color: white;
+            a{
+                color: #404040;
+            }
+        }
+    }
+    .pic1{
+        background-image: url(../../images/services/back.jpg);
+        background-size: cover;
+    }
+    .pic2{
+        background-image: url(../../images/services/box_2.jpg);
+        background-size: cover;
+    }
+    .pic3{
+        background-image: url(../../images/services/box_3.jpg);
+        background-size: cover;
+    }
+}

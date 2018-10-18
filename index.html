@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML5 lab1">
+<meta property="og:url" content="url to this page goes here" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="this website title" />
+<meta property="og:descrition" content="this website description" />
+<meta property="og:image" content="pic.jpg" />
+<link rel="stylesheet" href="dist/css/Base.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+<title> HEALTH+ </title>
+</head>
+<body>
+  <!-- Navs and Header  -->
+  <nav class="firstNav container-fluid pt-4 pb-4">
+    <div>
+      <a class="navbar-brand logo" href="index.html">HEALTH <i class="fas fa-plus"></i></a>
+    </div>
+    <ul class="nav justify-content-end">
+      <li class="nav-item ">
+        <a class="nav-link active" href="#">Help Desk</a>
+      </li> <span>|</span>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Emergency Services </a>  
+      </li> <span>|</span>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Appointment</a>
+      </li>
+      <li class="phone ml-5 hide"><i class="fas fa-phone"></i> +34 586 778 8892</li>
+    </ul>
+  </nav>
+  <div class="navContanier" id="myNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pr-0 pl-0 navTwo pt-4 pb-4">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link pl-0 mr-5 home" href="index.html">HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-5" href="aboutUs.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-5" href="services.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-5" href="news.html">NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </nav>
+  </div>
+  <header class="myHead space">
+    <div class="container-fluid">
+      <h1 class="mb-4">Medical Services that you can trust</h1>
+      <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
+      <div class="blue-btn">
+        <a class="first-link" href="">
+          READ MORE
+        </a>
+        <a href="second-link">
+          READ MORE
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- appointment  -->
+  <section class="container-fluid sec1 space">
+    <div class="row">
+      <div class="col-lg-8 col-12">
+        <div class="card-deck ml-0">
+          <div class="card ml-0">
+            <img class="card-img-top" src="images/home/sec1/1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Free Consultations</h5>
+              <p class="card-text mb-4">Arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus mollis.</p>
+              <div class="blue-btn">
+                <a class="first-link" href="">
+                  READ MORE
+                </a>
+                <a href="second-link">
+                  READ MORE
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/home/sec1/2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Emergency Care</h5>
+              <p class="card-text mb-4">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</p>
+              <div class="blue-btn">
+                <a class="first-link" href="">
+                  READ MORE
+                </a>
+                <a href="second-link">
+                  READ MORE
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="appointment">
+          <h4>Make an Appointment</h4>
+          <form>
+            <div class="input-group mt-5">
+              <select class="custom-select" id="inputGroupSelect02">
+                <option selected><i>Department</i></option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div> 
+            <div class="input-group">
+              <select class="custom-select" id="inputGroupSelect02">
+                <option selected><i>Doctor</i></option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div> 
+            <div class="input-group">
+              <input type="text" id="contact_input" class="contact_input form-control" placeholder="Name" required="required">
+            </div>
+            <div class="input-group">
+              <input type="phone" id="contact_input" class="contact_input form-control" placeholder="Phone No" required="required">
+            </div>
+            <button class="btn btn-primary btn-lg staticButton mt-2 contact_button" id="contact_button">MAKE AN APPOINTMENT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec2">
+    <div class="row container-fluid mr-0 ml-0">
+      <div class="col-sm-9 pl-0">
+          <h2>Make an appointment with one of our professional Doctors.</h2>
+          <p>Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas.</p>
+        </div>
+        <div class="col-sm-3 text-right pr-0 d-flex justify-content-end align-items-center">
+          <div class="blue-btn">
+            <a class="first-link" href="">
+              CALL NOW
+            </a>
+            <a href="second-link">
+              CALL NOW
+            </a>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- Services -->
+  <section class="sec3">
+    <h2 class="text-center h2">Our Services</h2>
+    <h5 class="text-center h5">TO CHOOSE FROM</h5>
+    <div class="row container-fluid">
+      <div class="col-lg-4 col-12">
+        <img src="images/home/sec 3/icon_1.svg" alt class="mr-3">
+        <span class="span">Cardiology</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada 
+        lorem maximus mauris.</p>
+      </div>
+      <div class="col-lg-4 col-12">
+        <img src="images/home/sec 3/icon_2.svg" alt class="mr-3">
+        <span class="span">Gastroenterology</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada 
+        lorem maximus mauris.</p>
+      </div>
+      <div class="col-lg-4 col-12">
+        <img src="images/home/sec 3/icon_3.svg" alt class="mr-3">
+        <span class="span">Medical Lab</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada 
+        lorem maximus mauris.</p>
+      </div>
+    </div>
+    <div class="row mt-5 container-fluid">
+      <div class="col-lg-4 col-12">
+        <img src="images/home/sec 3/icon_4.svg" alt class="mr-3">
+        <span class="span">Dental Care</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada 
+        lorem maximus mauris.</p>
+      </div>
+      <div class="col-lg-4 col-12">
+        <img src="images/home/sec 3/icon_5.svg" alt class="mr-3">
+        <span class="span">Surgery</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada 
+        lorem maximus mauris.</p>
+      </div>
+      <div class="col-lg-4 col-12">
+        <img src="images/home/sec 3/icon_6.svg" alt class="mr-3">
+        <span class="span">Neurology</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada 
+        lorem maximus mauris.</p>
+      </div>
+    </div>
+    <div class="button d-flex justify-content-center">
+      <div class="blue-btn">
+        <a class="first-link" href="">
+          READ MORE
+        </a>
+        <a href="second-link">
+          READ MORE
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Departments -->
+  <section class="sec4 container-fluid space">
+    <h2 class="text-center h2">Our Departments</h2>
+    <h5 class="text-center h5">TO CHOOSE FROM</h5>
+    <div class="row autoplay">
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+            <div class="cardHov">
+              <div class="hover">
+              </div>
+              <img class="card-img-top" src="images/home/sec4/1.jpg" alt="Card image cap">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">Dendistry</h5>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <div class="cardHov">
+            <div class="hover"></div>
+            <img class="card-img-top" src="images/home/sec4/2.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Orthopedics</h5>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <div class="cardHov">
+            <div class="hover"></div>
+            <img class="card-img-top" src="images/home/sec4/3.jpg" alt="Card image cap">
+          </div>          
+          <div class="card-body">
+            <h5 class="card-title">Laporatory</h5>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <div class="cardHov">
+            <div class="hover"></div>
+            <img class="card-img-top" src="images/home/sec4/4.jpg" alt="Card image cap">
+          </div>          
+          <div class="card-body">
+            <h5 class="card-title">Neonatology</h5>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <div class="cardHov">
+                <div class="hover"></div>
+                <img class="card-img-top" src="images/home/sec4/1.jpg" alt="Card image cap">
+            </div>               
+            <div class="card-body">
+              <h5 class="card-title">Dendistry</h5>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <div class="cardHov">
+              <div class="hover"></div>
+              <img class="card-img-top" src="images/home/sec4/2.jpg" alt="Card image cap">
+            </div>               
+            <div class="card-body">
+              <h5 class="card-title">Orthopedics</h5>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <div class="cardHov">
+              <div class="hover"></div>
+              <img class="card-img-top" src="images/home/sec4/3.jpg" alt="Card image cap">
+            </div>              
+            <div class="card-body">
+              <h5 class="card-title">Laporatory</h5>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <div class="cardHov">
+              <div class="hover"></div>
+              <img class="card-img-top" src="images/home/sec4/4.jpg" alt="Card image cap">
+            </div>             
+            <div class="card-body">
+              <h5 class="card-title">Neonatology</h5>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- Stuff and Lastest News -->
+  <section class="sec5 ">
+    <div class="row container-fluid mr-0">
+      <div class="col-sm-7">
+          <h2 class="h2">Faq & Stuff</h2>
+          <h5 class="h5 mb-0">READ ALL ABOUT IT</h5>
+          <div class="colapseTop">
+            <p>
+              <div class="btn btn-primary tog text-start" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <span><i class="fas fa-plus"></i></span> Maecenas fermentum tortor id fringilla molestie.
+              </div>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body collapseBody">
+                Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing.
+              </div>
+            </div>
+          </div>
+          <div>
+            <p>
+              <div class="btn btn-primary tog text-start" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" data-target="#collapseExample1" aria-controls="collapseExample1">
+                <span><i class="fas fa-plus"></i></span> Duis quis lacinia elit. Etiam varius mi eget lacus ultricies.
+              </div>
+            </p>
+            <div class="collapse" id="collapseExample1">
+              <div class="card card-body collapseBody">
+                Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing.
+              </div>
+            </div>
+          </div>
+          <div>
+            <p>
+              <div class="btn btn-primary tog text-start" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" data-target="#collapseExample2" aria-controls="collapseExample2">
+                <span><i class="fas fa-plus"></i></span> Maecenas fermentum tortor id fringilla molestie.
+              </div>
+            </p>
+            <div class="collapse" id="collapseExample2">
+              <div class="card card-body collapseBody">
+                Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing.
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-5 latest-news">
+        <h2 class="h2">Latest News</h2>
+        <h5 class="h5 mb-0">READ ALL ABOUT IT</h5>
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="images/home/sec5/latest_1.jpg">
+          </div>
+          <div class="col-sm-9 pl-0">
+            <h4>A simple blog post</h4>
+            <div>
+              <span>by Jane Smith</span> / <span>April 25, 2018</span>
+            </div>
+            <p>2 Comments</p>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col-sm-3">
+            <img src="images/home/sec5/latest_2.jpg">
+          </div>
+          <div class="col-sm-9 pl-0">
+            <h4>A new way to see things in medicine</h4>
+            <div>
+              <span>by Jane Smith</span> / <span>April 25, 2018</span>
+            </div>
+            <p>2 Comments</p>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col-sm-3">
+            <img src="images/home/sec5/latest_3.jpg">
+          </div>
+          <div class="col-sm-9 pl-0">
+            <h4>Why is Pharma industry so big?</h4>
+            <div>
+              <span>by Jane Smith</span> / <span>April 25, 2018</span>
+            </div>
+            <p>2 Comments</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- footer -->
+    <footer>
+      <div class="layout">
+          <div class="row container-fluid mr-0 ml-0">
+          <div class="col-lg-3 col-12 pl-0">
+              <div>
+              <a class="navbar-brand logo" href="#">HEALTH <i class="fas fa-plus"></i></a>
+              </div>
+              <p class="lorem">Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</p>
+              <div class="logos">
+              <i class="fab fa-product-hunt"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fas fa-globe"></i>
+              <i class="fab fa-behance"></i>
+              <i class="fab fa-linkedin-in"></i>
+              </div>
+              <p class="copyRight">Copyright ©2018 All rights reserved | This template is made with  by <i class="far fa-heart"></i> <a>Colorlib</a></p>
+          </div>
+          <div class="col-lg-5 col-12 pr-5">
+              <h3 class="mt-2 pb-5">Quick Contact</h3>
+              <form>
+                <div class="row mt-3">
+                    <div class="col-sm-6 pr-2 name">
+                        <input type="text" id="contact_input" class="contact_input" placeholder="Name" required="required">
+                    </div>
+                    <div class="col-sm-6 pl-2 email">
+                        <input type="email" id="contact_input" class="contact_input" placeholder="E-mail" required="required">
+                    </div>
+                </div>
+                <input type="text" id="contact_input" class="contact_input message" placeholder="Message" required="required">
+                <button class="btn btn-primary btn-lg staticButton contact_button" id="contact_button">SEND MESSAGE</button>
+            </form>
+          </div>
+          <div class="col-lg-4 col-12">
+              <h3 class="mt-2 pb-5">Opening Hours</h3>
+              <div class="row">
+              <div class="col-sm-6">
+                  <p class="pb-3">Monday – Thursday</p>
+                  <p class="pb-3">Friday</p>
+                  <p class="pb-3">Saturday</p>
+                  <p>Sunday</p>
+              </div>
+              <div class="col-sm-6 text-right">
+                  <p class="pb-3">8.00 – 19.00</p>
+                  <p class="pb-3">8.00 - 18.30</p>
+                  <p class="pb-3">9.30 – 17.00</p>
+                  <p>9.30 – 15.00</p>
+              </div>
+              </div>
+          </div>
+          </div>
+          <div class="nav">
+              <nav class="navbar navbar-expand-lg container-fluid">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link pl-0 mr-5" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-5" href="aboutUs.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-5" href="services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-5" href="news.html">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-5 pr-5" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Help Desk</a>
+                    </li> <span>|</span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Emergency Services </a>  
+                    </li> <span>|</span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Appointment</a>
+                    </li>
+                    <li class="phone"><i class="fas fa-phone"></i> +34 586 778 8892</li>
+                </ul>
+              </div>
+              </nav>
+          </div>
+      </div>
+  </footer>
+
+  <script src="jquery/dist/jquery.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+</body>
+</html>
+
